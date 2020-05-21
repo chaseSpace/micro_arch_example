@@ -1,2 +1,9 @@
 --- 
-/cmd目录也存放这个app的main.go文件，但是做的事和/app/main.go不一样，前者只包含提供app命令行功能的代码，后者包含应用启动必需的代码
+/cmd存放app的命令行工具代码
+
+```go
+cd /path/to/applectl
+go install
+
+$applectl xxx
+```

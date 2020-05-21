@@ -1,18 +1,14 @@
 package main
 
 import (
-	"go_project_example/app/apple/internal"
-	"go_project_example/config/apple_conf"
-	"go_project_example/init/apple_init"
+	"go_project_template/app_apple/internal"
+	"go_project_template/config/apple_conf"
 	"log"
 	"time"
 )
 
-// customize your env
-const GoProjectDir = "GO_PROJECT_DIR"
-
 func main() {
-	apple_init.MustInit(GoProjectDir)
+	Init()
 
 	conf := apple_conf.GetAppConfig()
 	log.Printf("%+v", *conf)

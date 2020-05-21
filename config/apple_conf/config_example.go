@@ -2,15 +2,22 @@ package apple_conf
 
 import (
 	"log"
-	"time"
 )
 
+type server struct {
+	Host   string
+	Port   int
+	Labels []string
+}
+
+type redis struct {
+	Addr string
+	Db   int
+}
+
 type Config struct {
-	Age        int
-	Cats       []string
-	Pi         float64
-	Perfection []int
-	DOB        time.Time
+	Server server
+	Redis  redis
 }
 
 var conf *Config

@@ -1,7 +1,10 @@
 # 下面是对toml语言的示例
 
-Age = 25
-Cats = [ "Cauchy", "Plato" ]
-Pi = 3.14
-Perfection = [ 6, 28, 496, 8128 ]
-DOB = 1987-07-05T05:45:00Z
+[Server]
+Host = "1.1.1.1"
+Port = 1024
+Labels = ["cros","hekl"]
+
+[redis]
+Addr = "1.1.1.1:6379"
+DB = 0
