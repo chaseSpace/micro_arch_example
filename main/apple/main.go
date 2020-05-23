@@ -1,19 +1,17 @@
 package main
 
 import (
-	"go_project_template/app_apple/internal"
+	"go_project_template/app_apple"
 	"go_project_template/config/apple_conf"
 	"log"
 	"time"
 )
 
 func main() {
-	Init()
+	app_apple.Init()
 
 	conf := apple_conf.GetAppConfig()
 	log.Printf("%+v", *conf)
-
-	log.Println(internal.AppleHi())
 
 	log.Println("apple is running~")
 
