@@ -8,10 +8,6 @@ github.com/hpcloud/tail v1.0.0/go.mod h1:ab1qPbhIpdTxEkNHXyeSf5vhxWSCs/tWer42PpO
 github.com/kr/pretty v0.2.0/go.mod h1:ipq/a2n7PKx3OHsz4KJII5eveXtPO4qwEXGdVfWzfnI=
 github.com/kr/pty v1.1.1/go.mod h1:pFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=
 github.com/kr/text v0.1.0/go.mod h1:4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=
-github.com/leigg-go/go-util v0.0.0-20200521060412-1f12ee603eb0 h1:Avw3E05GGCwSrFbpJ0grJP3umNyLafYPoKDE2CsmVcw=
-github.com/leigg-go/go-util v0.0.0-20200521060412-1f12ee603eb0/go.mod h1:3XaAW9I5Alnaa/WRoCQ2WcNIV7QTAwZYw1fvnvAgVc0=
-github.com/leigg-go/go-util v0.0.0-20200521064006-2ebf20590a93 h1:M6H3SDPv8sLfu+4JHz9fF76n+wSWVh8Qm7+YzD0kiP8=
-github.com/leigg-go/go-util v0.0.0-20200521064006-2ebf20590a93/go.mod h1:3XaAW9I5Alnaa/WRoCQ2WcNIV7QTAwZYw1fvnvAgVc0=
 github.com/leigg-go/go-util v0.0.1 h1:BFGuH8ysLqrl5lZBaedvP2dcNscmqmYpYTJApIA+KUM=
 github.com/leigg-go/go-util v0.0.1/go.mod h1:3XaAW9I5Alnaa/WRoCQ2WcNIV7QTAwZYw1fvnvAgVc0=
 github.com/nxadm/tail v1.4.4/go.mod h1:kenIhsEOeOJmVchQTgglprH7qJGnHDVpk1VPCcaMI8A=
@@ -26,6 +22,7 @@ golang.org/x/sys v0.0.0-20190904154756-749cb33beabd/go.mod h1:h1NjWce9XRLGQEsW7w
 golang.org/x/sys v0.0.0-20191120155948-bd437916bb0e/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
 golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
 golang.org/x/xerrors v0.0.0-20190717185122-a985d3407aa7/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/fsnotify.v1 v1.4.7/go.mod h1:Tz8NjZHkW78fSQdbUxIjBTcgA1z1m8ZHf0WmKUhAMys=
 gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7/go.mod h1:dt/ZhP58zS4L8KSrWDmTeBkI65Dw0HsyUHuEVlX15mw=

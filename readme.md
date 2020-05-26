@@ -8,7 +8,7 @@
 #### 编译
 ```bash
 cd .../go_project_template/app/apple
-go build -o apple.exe  # get main.exe
+go build .
 
 # 代码中从 命令行/ENV 读取项目配置文件
 ./main --conf-path=../configs/app_apple.toml
